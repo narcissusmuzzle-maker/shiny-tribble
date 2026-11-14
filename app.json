@@ -1,0 +1,53 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1061361,
+    "appName": "Таймер",
+    "appType": "app",
+    "version": {
+      "code": 2,
+      "name": "1.1.0"
+    },
+    "icon": "icon.png",
+    "vender": "luv613",
+    "description": "Девять таймеров занятий и таймер на 15 минут; час засчитывается в LuvU613"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "3.6",
+      "target": "3.6",
+      "minVersion": "3.6"
+    }
+  },
+  "targets": {
+    "default": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        },
+        "app-side": {
+          "path": "app-side/index"
+        }
+      },
+      "platforms": [
+        {
+          "st": "s",
+          "sr": "w432"
+        }
+      ],
+      "designWidth": 432
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Timer"
+    },
+    "ru-RU": {
+      "appName": "Таймер"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
